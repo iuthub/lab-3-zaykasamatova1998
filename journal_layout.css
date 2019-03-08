@@ -1,0 +1,36 @@
+body{
+    background-image: url('images/bg.jpg');
+}
+
+div .wrapper{
+    border: 10px solid white;
+    background-color: white;
+    margin: 10px 10%;
+}
+
+.header{
+text-align: right;
+float:right;
+background-color: #A8F0F0;
+display: flex;
+}
+
+div.article img{
+    float: right;
+}
+
+.header h2{
+    font-size: 14pt;
+}
+
+div.article {
+    overflow: hidden;
+    border: 4px #C2E9E9 solid;
+    background-color: #E8FBFB;
+    padding: 5px;
+    margin-top: 10px;
+} 
+
+span.date{
+    border-bottom: 2px blue dashed;
+}
